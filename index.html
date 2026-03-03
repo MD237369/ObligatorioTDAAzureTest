@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+  <title>Epiphone Guitars — Legado y Sonido</title>
+  <link rel="stylesheet"
+        href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=DM+Mono:wght@300;400&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+  <p style="color:white;">Maximiliano Dutra - 237369 TDA-N1.5A - Test deploy Azure</p>
+  <header class="hero">
+    <nav class="nav">
+      <span class="nav__logo">EPIPHONE</span>
+      <ul class="nav__links">
+        <li><a href="#coleccion">Colección</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Est. 1873</p>
+      <h1 class="hero__title">El sonido<br /><em>que define</em><br />generaciones</h1>
+      <p class="hero__sub">Guitarras que han acompañado a los más grandes artistas del rock, blues y jazz.</p>
+      <a href="#coleccion"
+         class="btn">Ver Colección</a>
+    </div>
+    <div class="hero__img-wrap">
+      <img src="https://s3.us-west-2.amazonaws.com/sgs.pressable-guitarguys/wp-content/uploads/2025/10/06164045/irxtz2zwgssjg9gobu4m-scaled.jpg"
+           alt="Epiphone Casino Natural"
+           class="hero__img"
+           onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Epiphone_Les_Paul_Standard_1994_%28transparent%29.png/220px-Epiphone_Les_Paul_Standard_1994_%28transparent%29.png'" />
+    </div>
+  </header>
+
+  <section class="section"
+           id="coleccion">
+    <div class="section__header">
+      <span class="label">Modelos Icónicos</span>
+      <h2>Colección 2024</h2>
+    </div>
+    <div class="grid"
+         id="guitar-grid"></div>
+  </section>
+
+  <section class="banner"
+           id="historia">
+    <div class="banner__text">
+      <span class="label">Nuestra Historia</span>
+      <h2>Más de 150 años<br />de tradición musical</h2>
+      <p>Fundada por Anastasios Stathopoulo en 1873, Epiphone ha sido la guitarra de John Lennon, Paul McCartney, Gary
+        Clark Jr. y cientos de leyendas del rock y el blues.</p>
+    </div>
+    <div class="banner__stats">
+      <div class="stat"><span class="stat__num"
+              data-target="150">0</span><span class="stat__label">Años de historia</span></div>
+      <div class="stat"><span class="stat__num"
+              data-target="300">0</span><span class="stat__label">Modelos distintos</span></div>
+      <div class="stat"><span class="stat__num"
+              data-target="5000000">0</span><span class="stat__label">Guitarras vendidas</span></div>
+    </div>
+  </section>
+
+  <footer class="footer"
+          id="contacto">
+    <div class="footer__inner">
+      <div>
+        <p class="nav__logo">EPIPHONE</p>
+        <p class="footer__copy">© 2024 Epiphone — Página de prueba de despliegue</p>
+      </div>
+      <form class="footer__form"
+            onsubmit="handleForm(event)">
+        <input type="email"
+               placeholder="Tu email"
+               required />
+        <button type="submit"
+                class="btn btn--sm">Suscribirse</button>
+      </form>
+    </div>
+    <p class="deploy-badge"
+       id="deploy-info">⚡ Deploy OK — <span id="deploy-time"></span></p>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
